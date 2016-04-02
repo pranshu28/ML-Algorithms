@@ -14,7 +14,7 @@ for i in range(no_p):
 	data.append([t for t in df[df.columns[i]].values])
 y_list=[t for t in df[df.columns[9]].values]
 
-#Gaussiun Discriminant Analysis
+#Gaussian Discriminant Analysis
 
 #Mean Matrix
 def mean(x_list,y,data_y):
