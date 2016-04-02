@@ -1,5 +1,5 @@
 # ML-Algorithms
-Implementation of various machine learning algorithms of supervised learning on miscellaneous data-sets.
+Implementation of various machine learning algorithms on miscellaneous data-sets.
 
 Algorithms used :
 
@@ -10,3 +10,5 @@ Algorithms used :
 5. Naive-Bayes Classification
 6. Support Vector Machine using scikit-learn
 
+# To Do:
+Implement unsupervised learning algorithms.
