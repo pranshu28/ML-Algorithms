@@ -1,7 +1,1 @@
-The data (X1, X2, X3, X4, X5) are by city.
-X1 = death rate per 1000 residents
-X2 = doctor availability per 100,000 residents
-X3 = hospital availability per 100,000 residents
-X4 = annual per capita income in thousands of dollars
-X5 = population density people per square mile
- 
+The ds1.10 dataset is a compressed life sciences dataset. Each row of the original, expanded dataset represented a chemistry or biology experiment, and the output represented the reactivity of the compound observed in the experiment. We ran principal components analysis (PCA) on that dataset to create ds1.10, saving only the top ten principal components. The rightmost attribute is a binarized version of the original output. This dataset seems to trigger strange behavior in the SVMlight and LIBSVM support vector machine software.  
