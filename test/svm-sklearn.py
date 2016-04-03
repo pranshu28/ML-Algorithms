@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import svm
 from itertools import groupby
-"""from sklearn.linear_model import Ridge
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.pipeline import make_pipeline"""
 
 df = pd.read_csv("Indian Liver Patient Dataset (ILPD).csv")
 df.as_matrix()
@@ -39,7 +36,6 @@ Z=svc.predict(np.c_[xx.ravel(), yy.ravel()])
 Z = Z.reshape(xx.shape)
 plt.contourf(xx, yy, Z, cmap=plt.cm.Paired, alpha=0.8)
 plt.scatter(x_axis,y_axis, c=target, cmap=plt.cm.Paired)
-#plt.scatter(x_axis,y_axis,color="red")
-#plt.xlim(x_min,x_max)
+plt.xlim(x_min,x_max)
 plt.ylim(y_min, y_max)
 plt.show()
