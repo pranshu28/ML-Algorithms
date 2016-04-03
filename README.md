@@ -1,5 +1,5 @@
 # ML-Algorithms
-Implementation of various machine learning algorithms on miscellaneous data-sets.
+Implementation of some important machine learning algorithms on miscellaneous data-sets.
 
 Algorithms used :
 
