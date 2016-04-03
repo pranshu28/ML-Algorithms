@@ -51,9 +51,9 @@ matrix(year,gdp_crs,inputs)
 	plt.plot(x_axis,h)
 	plt.scatter(inputs,targets)
 
-lin_widrow_hoff(gdp_crs,year)"""
+lin_widrow_hoff(gdp_crs,year)
 
-"""def multi_widrow_hoff(year,targets,inputs):
+def multi_widrow_hoff(year,targets,inputs):
 	weights=[[1 for x in range(len(inputs))] for y in range(len(year)+1)]
 	al=0.0000000000000005
 	error=[]
@@ -66,16 +66,8 @@ lin_widrow_hoff(gdp_crs,year)"""
 		for k in range(len(inputs)):
 			weights[n+1][k]=weights[n][k]+al*error[n]*inputs[k][n]
 	print(weights[len(weights)-1])
-"""
 
-#multi_widrow_hoff(year,gdp_crs,inputs)
 
-"""plt.scatter(year,gdp_crs)
-plt.scatter(a,gdp_crs)
-plt.scatter(b,gdp_crs)
-plt.scatter(c,gdp_crs)
-plt.scatter(d,gdp_crs)
-plt.scatter(e,gdp_crs)
-plt.scatter(f,gdp_crs)"""
+multi_widrow_hoff(year,gdp_crs,inputs)"""
 
 plt.show()
