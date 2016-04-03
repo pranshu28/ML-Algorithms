@@ -60,6 +60,6 @@ def multi_widrow_hoff(targets,inputs):
 	#plt.scatter(targets,error)
 
 
-#multi_widrow_hoff(death_per1000,inputs)
+multi_widrow_hoff(death_per1000,inputs)
 
 plt.show()
