@@ -10,5 +10,11 @@ Algorithms used :
 5. Naive-Bayes Classification
 6. Support Vector Machine using scikit-learn
 
+
+Open:
+
+	/test: Supervised learning algorithms.
+	/test2: Unsupervised learning algorithms.
+
 # To Do:
 Implement unsupervised learning algorithms.
