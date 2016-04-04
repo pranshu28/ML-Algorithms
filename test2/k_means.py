@@ -62,7 +62,7 @@ cent_t=np.array(cent).T
 plt.scatter(cent_t[0],cent_t[1],c=clr)
 #Iteration
 
-i=0
+i=1
 prev_c=None
 while i<=1000 and prev_c!=cent:
 	prev_c=cent
