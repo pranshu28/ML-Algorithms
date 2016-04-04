@@ -21,6 +21,7 @@ x_min,x_max=np.array(x_axis).min()-1,np.array(x_axis).max()+1
 y_min,y_max=np.array(y_axis).min()-1,np.array(y_axis).max()+1
 
 plt.scatter(x_axis,y_axis,marker='x',c='yellow')
+clr = np.arange(k)
 
 #Get Labels
 
@@ -34,6 +35,7 @@ def get_labels(data,cent):
 		#print(dist,dist.index(min(dist)))
 		l.append(dist.index(min(dist)))
 	return l
+
 #Get Centroids
 
 def get_cent(data,labels,k):
@@ -56,17 +58,16 @@ cent=[]
 for pair in range(k):
 	cent.append([random.randint(x_min+1,x_max),random.randint(y_min+1,y_max)])
 print(cent)
-
+cent_t=np.array(cent).T
+plt.scatter(cent_t[0],cent_t[1],c=clr)
 #Iteration
 
 i=0
-clr = np.arange(k)
 prev_c=None
 while i<=1000 and prev_c!=cent:
 	prev_c=cent
 	i+=1
 	labels=get_labels(d,cent)
-	#print(labels)
 	cent=get_cent(d,labels,k)
 	cent_t=np.array(cent).T
 	plt.scatter(cent_t[0],cent_t[1],c=clr)
@@ -75,7 +76,7 @@ print(i)
 print(cent)
 
 
-#cent_t=np.array(cent).T
+cent_t=np.array(cent).T
 plt.scatter(cent_t[0],cent_t[1],s=100,c=clr)
 plt.xlim(x_min,x_max)
 plt.ylim(y_min, y_max)
