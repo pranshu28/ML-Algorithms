@@ -78,6 +78,6 @@ print(cent)
 #cent_t=np.array(cent).T
 plt.scatter(cent_t[0],cent_t[1],s=100,c=clr)
 plt.xlim(x_min,x_max)
-#plt.ylim(y_min, y_max)
+plt.ylim(y_min, y_max)
 
 plt.show()
