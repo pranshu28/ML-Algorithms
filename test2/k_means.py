@@ -46,8 +46,11 @@ def get_cent(data,labels,k):
 				num_x+=data[0][i]
 				num_y+=data[1][i]
 				den+=1
-		#print(j,num_x,num_y,den,float(num_x/den),float(num_y/den))
-		new_c.append([float(num_x/den),float(num_y/den)])
+		if den!=0:
+			#print(j,num_x,num_y,den,float(num_x/den),float(num_y/den))
+			new_c.append([float(num_x/den),float(num_y/den)])
+		else:
+			return []
 	return new_c
 
 #Generate Random Centroids
