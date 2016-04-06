@@ -15,4 +15,4 @@ Implementation of some important machine learning algorithms on miscellaneous da
 1. K-Means Algorithm
 
 # To Do:
-Implement unsupervised learning algorithms.
+Implement more unsupervised learning algorithms.
