@@ -1,5 +1,5 @@
 # ML-Algorithms
-Implementation of some important machine learning algorithms on miscellaneous data-sets.
+Implementation of some important machine learning algorithms as described in one of the famous research paper "Map-Reduce for Machine Learning on Multicore" by Stanford University, CA on miscellaneous data-sets.
 
 /test/ - Supervised learning algorithms:
 
@@ -13,6 +13,7 @@ Implementation of some important machine learning algorithms on miscellaneous da
 /test2/ - Unsupervised learning algorithms:
 
 1. K-Means Algorithm
+2. EM Algorithm using scikit-learn
 
 # To Do:
-Implement more unsupervised learning algorithms.
+Implement more machine learning algorithms.
