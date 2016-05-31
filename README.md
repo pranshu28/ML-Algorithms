@@ -2,6 +2,7 @@
 Implementation of some important machine learning algorithms as described in one of the famous research paper "Map-Reduce for Machine Learning on Multicore" by Stanford University, CA on miscellaneous data-sets.
 
 /test1/
+
 1. Regression Analysis using Matrix Method
 2. Multivariable Regression analysis using Widrow-Hoff Method
 3. Logistic Regression
@@ -10,6 +11,7 @@ Implementation of some important machine learning algorithms as described in one
 6. Support Vector Machine using scikit-learn
 
 /test2/
+
 7. K-Means Algorithm
 8. EM Algorithm using scikit-learn
 9. Principal Component Analysis
