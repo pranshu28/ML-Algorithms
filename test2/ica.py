@@ -17,7 +17,6 @@ def sigmoid(data):
 
 #Length of training set
 m=len(X)
-
 n=m
 
 #Learning rate
@@ -63,10 +62,9 @@ for i in range(m):
 
 
 fig=plt.figure()
-
 ax1=fig.add_subplot(211)
 ax1.scatter(axis,X,marker='x',c='red')		#Graph for X
 ax2=fig.add_subplot(212)
-ax2.scatter(axis,Y)							#Graph for Y
+ax2.scatter(axis,Y)				#Graph for Y
 
 plt.show()
