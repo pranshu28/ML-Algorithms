@@ -37,9 +37,6 @@ def sga(W,X):
 	for j in range(n):
 		wx=np.dot(np.array(W[j]),np.array(X).T)
 		row.append(1-2*sigmoid(wx))
-	#print(np.array(row),np.array(X).reshape(1,m))
-	#print(np.dot(np.array(row),np.array(X)))
-	#print(np.linalg.inv(np.array(W).T))
 	ga=np.dot(np.array(row).reshape(n,1),np.array(X).reshape(1,m))+np.linalg.inv(np.array(W).T)
 	return ga
 
