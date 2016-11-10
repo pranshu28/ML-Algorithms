@@ -16,7 +16,3 @@ Implementation of some important machine learning algorithms as described in one
 8. EM Algorithm using scikit-learn
 9. Principal Component Analysis
 10. Independent Component Analysis
-
-
-# To Do:
-Implement more machine learning algorithms.
